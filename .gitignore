@@ -2,3 +2,5 @@ node_modules/
 .vscode
 
 packages/*/node_modules/
+packages/*/dist/
+packages/*/package/

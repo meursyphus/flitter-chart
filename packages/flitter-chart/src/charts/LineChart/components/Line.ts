@@ -1,5 +1,4 @@
-import { Widget } from "@meursyphus/flitter";
-import { BuildContext } from "@meursyphus/flitter/src/widget/ComponentWidget";
+import { Widget, type BuildContext } from "@meursyphus/flitter";
 import { Line as DefaultLine } from "./default";
 import CartesianChartContextWidget from "../../../common/CartesianChart/CartesianChartContextWidget";
 import type { Custom } from "../types";

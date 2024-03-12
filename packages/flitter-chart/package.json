@@ -2,17 +2,34 @@
   "name": "@meursyphus/flitter-chart",
   "version": "0.0.1",
   "main": "src/index.ts",
-  "description": "flitter chart",
-  "keywords": ["flitter", "chart", "flitter-chart"],
+  "description": "A chart library built with the flitter library, designed as a universal framework compatible with both Svelte and React.",
+  "keywords": [
+    "flitter",
+    "chart",
+    "flitter-chart",
+    "svg"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build && tsc",
     "prepackage": "npm run build",
-    "package": "cp package.json package/package.json && cd package && npm pkg delete main && npm pkg set types='./index.d.ts' &&  npm pkg set exports='{\".\": {\"import\": \"./index.js\", \n \"require\": \"./index.umd.js\"}}' --json"
+    "package": "npm run copy-package && npm run copy-readme && cd package && npm pkg delete main && npm pkg set types='./index.d.ts' &&  npm pkg set exports='{\".\": {\"import\": \"./index.js\", \n \"require\": \"./index.umd.js\"}}' --json",
+    "copy-readme": "cp README.md package/README.md",
+    "copy-package": "cp package.json package/package.json"
   },
   "type": "module",
   "devDependencies": {
     "vite": "^4.2.1",
     "@meursyphus/flitter": "^0.0.1"
-  }
+  },
+  "peerDependencies": {
+    "@meursyphus/flitter": "^1.0.0 || ^0.0.1"
+  },
+  "homepage": ".",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meursyphus/flitter-chart"
+  },
+  "license": "MIT",
+  "author": "meursyphus"
 }
