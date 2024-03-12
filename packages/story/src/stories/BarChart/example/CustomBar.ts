@@ -1,5 +1,5 @@
 import { dedent } from 'ts-dedent';
-import { Container, BoxDecoration, BoxShadow } from '@moonmoonbrothers/flutterjs';
+import { Container, BoxDecoration, BoxShadow } from '@meursyphus/flitter';
 import { BarChart } from '@meursyphus/flitter-chart';
 const CustomBar = {
 	widget: BarChart({
@@ -38,7 +38,7 @@ const CustomBar = {
 		}
 	}),
 	code: dedent`
-    import { Container, BoxDecoration, BoxShadow } from '@moonmoonbrothers/flutterjs';
+    import { Container, BoxDecoration, BoxShadow } from '@meursyphus/flitter';
 		import { BarChart } from '@meursyphus/flitter-chart';
 
     BarChart({

@@ -13,7 +13,7 @@ import {
 	Row,
 	MainAxisSize,
 	SizedBox
-} from '@moonmoonbrothers/flutterjs';
+} from '@meursyphus/flitter';
 import { BarChart } from '@meursyphus/flitter-chart';
 import Examples from './example';
 
@@ -71,7 +71,7 @@ export const Basic: Story = {
 			}
 		}),
 		code: dedent`
-		import { TextStyle, Text, Container, EdgeInsets } from '@moonmoonbrothers/flutterjs';
+		import { TextStyle, Text, Container, EdgeInsets } from '@meursyphus/flitter';
 		import { BarChart } from '@meursyphus/flitter-chart';
 
 	`
@@ -138,7 +138,7 @@ export const HorizontalWithMinusValue: Story = {
 			}
 		}),
 		code: dedent`
-		import { TextStyle, Text, Container, EdgeInsets } from '@moonmoonbrothers/flutterjs';
+		import { TextStyle, Text, Container, EdgeInsets } from '@meursyphus/flitter';
 		import { BarChart } from '@meursyphus/flitter-chart';
 	`
 	}
@@ -185,7 +185,7 @@ export const VerticalWithMinusValues: Story = {
 			}
 		}),
 		code: dedent`
-		import { TextStyle, Text, Container, EdgeInsets } from '@moonmoonbrothers/flutterjs';
+		import { TextStyle, Text, Container, EdgeInsets } from '@meursyphus/flitter';
 		import { BarChart } from '@meursyphus/flitter-chart';
 	`
 	}

@@ -10,7 +10,7 @@ import {
   Row,
   CrossAxisAlignment,
   Column,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { assert } from "../../util";
 
 export const defaultPlotConfig = {

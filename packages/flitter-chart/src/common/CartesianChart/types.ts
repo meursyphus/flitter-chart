@@ -1,4 +1,4 @@
-import { EdgeInsets, Widget } from "@moonmoonbrothers/flutterjs";
+import { EdgeInsets, Widget } from "@meursyphus/flitter";
 import CustomTitle, { TitleConfig, Title } from "./component/Title";
 import CustomPlot, { PlotProps, PlotConfig, Plot } from "./component/Plot";
 import { XAxisProps, XAxis } from "./component/XAxis";

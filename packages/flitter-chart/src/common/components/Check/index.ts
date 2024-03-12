@@ -1,4 +1,4 @@
-import { CustomPaint, Size } from "@moonmoonbrothers/flutterjs";
+import { CustomPaint, Size } from "@meursyphus/flitter";
 import Assets from "./assets";
 const Check = () => {
   return CustomPaint({

@@ -1,9 +1,4 @@
-import {
-  Widget,
-  BuildContext,
-  TextStyle,
-  Provider,
-} from "@moonmoonbrothers/flutterjs";
+import { Widget, BuildContext, TextStyle, Provider } from "@meursyphus/flitter";
 import { Legend as DefaultLegend } from "./default";
 import CartesianChartContextWidget from "../CartesianChartContextWidget";
 import { functionalizeClass } from "../../../utils";

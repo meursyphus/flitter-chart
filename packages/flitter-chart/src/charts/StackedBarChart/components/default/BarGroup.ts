@@ -22,7 +22,7 @@ import {
   ClipRect,
   Rect,
   Curves,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { Utils, functionalizeClass } from "../../../../utils";
 import { IgnoreChildSize } from "../../../../common/components";
 

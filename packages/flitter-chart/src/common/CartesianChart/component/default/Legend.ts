@@ -12,7 +12,7 @@ import {
   BoxDecoration,
   Border,
   SizedBox,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { Check } from "../../../components";
 export default function Legend({
   legendStates,

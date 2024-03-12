@@ -1,4 +1,4 @@
-import { Widget } from "@moonmoonbrothers/flutterjs";
+import { Widget } from "@meursyphus/flitter";
 import {
   Custom as CartesianChartCustom,
   Theme as CartesianChartTheme,
@@ -53,9 +53,9 @@ export type Scale = {
   x: CartesianChartScale;
   y: CartesianChartScale;
   value: {
-    min: number
-    max: number
-  }
+    min: number;
+    max: number;
+  };
 };
 
 export type Dependencies = Omit<

@@ -1,5 +1,5 @@
-import { Widget } from "@moonmoonbrothers/flutterjs";
-import { BuildContext } from "@moonmoonbrothers/flutterjs/src/widget/ComponentWidget";
+import { Widget } from "@meursyphus/flitter";
+import { BuildContext } from "@meursyphus/flitter/src/widget/ComponentWidget";
 import { Scatter as DefaultScatter } from "./default";
 import type { Custom, Dependencies, Data, Theme, Scale } from "../types";
 import ChartContextWidget from "../../../common/ChartContextWidget";

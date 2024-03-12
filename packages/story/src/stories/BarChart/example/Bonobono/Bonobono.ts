@@ -13,7 +13,7 @@ import {
 	GestureDetector,
 	Positioned,
 	Path
-} from '@moonmoonbrothers/flutterjs';
+} from '@meursyphus/flitter';
 import Assets from './assets';
 import { BarChart } from '@meursyphus/flitter-chart';
 
@@ -148,7 +148,7 @@ import {
 	Transform,
 	GestureDetector,
 	Positioned
-} from '@moonmoonbrothers/flutterjs';
+} from '@meursyphus/flitter';
 import Assets from './assets';
 import { BarChart } from '@meursyphus/flitter-chart';
 

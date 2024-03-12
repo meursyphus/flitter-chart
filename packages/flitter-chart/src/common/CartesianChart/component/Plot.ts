@@ -1,4 +1,4 @@
-import { Widget, BuildContext, Container } from "@moonmoonbrothers/flutterjs";
+import { Widget, BuildContext, Container } from "@meursyphus/flitter";
 import { Plot as DefaultPlot } from "./default";
 import CartesianChartContextWidget from "../CartesianChartContextWidget";
 import { assert } from "../util";

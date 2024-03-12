@@ -1,4 +1,4 @@
-import { Widget, BuildContext, Container } from "@moonmoonbrothers/flutterjs";
+import { Widget, BuildContext, Container } from "@meursyphus/flitter";
 import { Plot as DefaultPlot } from "./default";
 import CartesianChartContextWidget from "../../../common/CartesianChart/CartesianChartContextWidget";
 function assert(condition: boolean, message: string): asserts condition {
@@ -6,7 +6,6 @@ function assert(condition: boolean, message: string): asserts condition {
     throw new Error(`Assertion failed: ${message}`);
   }
 }
-
 
 type PlotProps = {
   direction: "vertical" | "horizontal";

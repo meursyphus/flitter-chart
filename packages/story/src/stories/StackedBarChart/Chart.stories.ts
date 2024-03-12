@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/svelte';
 import Widget from '../../Widget.svelte';
 import { dedent } from 'ts-dedent';
-import { TextStyle, Text, Container, EdgeInsets, Positioned } from '@moonmoonbrothers/flutterjs';
+import { TextStyle, Text, Container, EdgeInsets, Positioned } from '@meursyphus/flitter';
 import { StackedBarChart } from '@meursyphus/flitter-chart';
 
 const meta = {
@@ -65,7 +65,7 @@ export const Basic: Story = {
 			}
 		}),
 		code: dedent`
-		import { TextStyle, Text, Container, EdgeInsets } from '@moonmoonbrothers/flutterjs';
+		import { TextStyle, Text, Container, EdgeInsets } from '@meursyphus/flitter';
 		import { BarChart } from '@meursyphus/flitter-chart';
 
 	`
@@ -135,7 +135,7 @@ export const HorizontalWithMinusValue: Story = {
 			}
 		}),
 		code: dedent`
-		import { TextStyle, Text, Container, EdgeInsets } from '@moonmoonbrothers/flutterjs';
+		import { TextStyle, Text, Container, EdgeInsets } from '@meursyphus/flitter';
 		import { BarChart } from '@meursyphus/flitter-chart';
 	`
 	}
@@ -185,7 +185,7 @@ export const Vertical: Story = {
 			}
 		}),
 		code: dedent`
-		import { TextStyle, Text, Container, EdgeInsets } from '@moonmoonbrothers/flutterjs';
+		import { TextStyle, Text, Container, EdgeInsets } from '@meursyphus/flitter';
 		import { BarChart } from '@meursyphus/flitter-chart';
 	`
 	}
@@ -235,7 +235,7 @@ export const VerticalWithMinusValues: Story = {
 			}
 		}),
 		code: dedent`
-		import { TextStyle, Text, Container, EdgeInsets } from '@moonmoonbrothers/flutterjs';
+		import { TextStyle, Text, Container, EdgeInsets } from '@meursyphus/flitter';
 		import { BarChart } from '@meursyphus/flitter-chart';
 	`
 	}

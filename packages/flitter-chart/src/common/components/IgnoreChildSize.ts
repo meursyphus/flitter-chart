@@ -3,7 +3,7 @@ import {
   type Alignment,
   ConstraintsTransformBox,
   SizedBox,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 export default function IgnoreChildSize({
   ignoreHeight = false,
   ignoreWidth = false,
@@ -24,10 +24,10 @@ export default function IgnoreChildSize({
         ignoreWidth && ignoreHeight
           ? ConstraintsTransformBox.maxUnconstrained
           : ignoreWidth
-          ? ConstraintsTransformBox.maxWidthUnconstrained
-          : ignoreHeight
-          ? ConstraintsTransformBox.maxHeightUnconstrained
-          : ConstraintsTransformBox.unmodified,
+            ? ConstraintsTransformBox.maxWidthUnconstrained
+            : ignoreHeight
+              ? ConstraintsTransformBox.maxHeightUnconstrained
+              : ConstraintsTransformBox.unmodified,
       child: child,
     }),
   });

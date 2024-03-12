@@ -1,4 +1,4 @@
-import { Widget } from "@moonmoonbrothers/flutterjs";
+import { Widget } from "@meursyphus/flitter";
 import { Scale } from "../../common/CartesianChart/types";
 import BarGroup, { BarGroupConfig } from "./components/BarGroup";
 import type { CustomConfig, CustomWidget } from "../../common/type";

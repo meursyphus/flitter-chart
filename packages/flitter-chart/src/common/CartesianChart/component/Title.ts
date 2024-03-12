@@ -3,7 +3,7 @@ import {
   Widget,
   BuildContext,
   EdgeInsets,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { Font } from "../types";
 import { Title as DefaultTitle } from "./default";
 import CartesianChartContextWidget from "../CartesianChartContextWidget";

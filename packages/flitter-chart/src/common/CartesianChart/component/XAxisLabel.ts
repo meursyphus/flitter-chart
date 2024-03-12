@@ -3,8 +3,8 @@ import {
   TextStyle,
   TextWidthBasis,
   Widget,
-} from "@moonmoonbrothers/flutterjs";
-import { BuildContext } from "@moonmoonbrothers/flutterjs/src/widget/ComponentWidget";
+} from "@meursyphus/flitter";
+import { BuildContext } from "@meursyphus/flitter/src/widget/ComponentWidget";
 import { XAxisLabel as DefaultXAxisLabel } from "./default";
 import CartesianChartContextWidget from "../CartesianChartContextWidget";
 
@@ -13,7 +13,7 @@ export type XAxisLabelProps = {
   text: string;
 };
 
-export class XAxisLabel extends CartesianChartContextWidget{
+export class XAxisLabel extends CartesianChartContextWidget {
   constructor(private props: XAxisLabelProps) {
     super();
   }

@@ -3,13 +3,13 @@ import {
   BuildContext,
   Provider,
   Widget,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 class ChartContextWidget<
   CUSTOM,
   DEPENDENCIES extends Record<string, (...arg: any) => Widget>,
   THEME,
   DATA,
-  SCALE
+  SCALE,
 > extends ComponentWidget {
   getData(context: BuildContext): DATA {
     return Provider.of("DATA", context);

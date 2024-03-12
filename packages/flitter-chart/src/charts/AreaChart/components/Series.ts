@@ -1,5 +1,4 @@
-import { Widget } from "@moonmoonbrothers/flutterjs";
-import { BuildContext } from "@moonmoonbrothers/flutterjs/src/widget/ComponentWidget";
+import { Widget, type BuildContext } from "@meursyphus/flitter";
 import { Series as DefaultSeries } from "./default";
 import {
   Series as BaseSeries,
@@ -7,7 +6,6 @@ import {
 } from "../../../common/CartesianChart/component/Series";
 import type { Custom } from "../types";
 import Area from "./Area";
-import { defaultColors } from "../../../utils";
 
 export type SeriesConfig = BaseSeriesConfig;
 

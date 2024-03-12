@@ -1,4 +1,4 @@
-import { type Decoration, Container } from "@moonmoonbrothers/flutterjs";
+import { type Decoration, Container } from "@meursyphus/flitter";
 
 export default function XAxisTick({
   thickness,

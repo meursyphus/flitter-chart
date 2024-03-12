@@ -1,4 +1,4 @@
-import { Widget, BuildContext } from "@moonmoonbrothers/flutterjs";
+import { Widget, BuildContext } from "@meursyphus/flitter";
 import { XAxis as DefaultXAxis } from "./default";
 import CartesianChartContextWidget from "../CartesianChartContextWidget";
 

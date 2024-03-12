@@ -144,7 +144,7 @@ export const Bubble: Story = {
 			}
 		}),
 		code: dedent`
-		import { TextStyle, Text, Container, EdgeInsets, Positioned } from '@moonmoonbrothers/flutterjs';
+		import { TextStyle, Text, Container, EdgeInsets, Positioned } from '@meursyphus/flitter';
 		import { BubbleChart } from '@meursyphus/flitter-chart';
 	`
 	}

@@ -1,4 +1,4 @@
-import { CustomPaint, Path, Size } from "@moonmoonbrothers/flutterjs";
+import { CustomPaint, Path, Size } from "@meursyphus/flitter";
 import { drawLine } from "../../../LineChart/components/default/Line";
 export default function Area({
   thickness = 2,

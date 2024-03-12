@@ -15,7 +15,7 @@ import {
   Opacity,
   BorderRadius,
   Radius,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 
 function Tooltip({
   value,

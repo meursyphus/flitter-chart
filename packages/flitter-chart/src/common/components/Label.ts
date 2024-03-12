@@ -7,7 +7,7 @@ import {
   BoxDecoration,
   TextAlign,
   TextWidthBasis,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 
 export default function Label({
   text,

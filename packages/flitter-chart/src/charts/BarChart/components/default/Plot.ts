@@ -12,8 +12,8 @@ import {
   Row,
   CrossAxisAlignment,
   Column,
-} from "@moonmoonbrothers/flutterjs";
-import { assert } from "@moonmoonbrothers/flutterjs/src/utils";
+} from "@meursyphus/flitter";
+import { assert } from "@meursyphus/flitter/src/utils";
 
 export default function Plot({
   direction,

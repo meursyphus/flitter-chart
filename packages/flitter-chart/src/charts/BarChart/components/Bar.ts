@@ -3,7 +3,7 @@ import {
   EdgeInsets,
   ToolTipPosition,
   Widget,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { Bar as DefaultBar } from "./default";
 import CartesianChartContextWidget from "../../../common/CartesianChart/CartesianChartContextWidget";
 import type { Custom, Dependencies } from "../types";

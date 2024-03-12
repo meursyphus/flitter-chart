@@ -62,8 +62,8 @@
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"dependencies": {
-		"@moonmoonbrothers/flutterjs": "^1.2.3",
-		"@moonmoonbrothers/flutterjs-svelte": "^0.0.4",
+		"@meursyphus/flitter": "^0.0.1",
+		"@meursyphus/flitter-svelte": "^0.0.1",
 		"svelte-highlight": "^7.6.0"
 	}
 }

@@ -1,4 +1,4 @@
-import { BuildContext, EdgeInsets, Widget } from "@moonmoonbrothers/flutterjs";
+import { BuildContext, EdgeInsets, Widget } from "@meursyphus/flitter";
 import { Tooltip as DefaultTooltip } from "./default";
 import CartesianChartContextWidget from "../../../common/CartesianChart/CartesianChartContextWidget";
 import type { Custom } from "../types";

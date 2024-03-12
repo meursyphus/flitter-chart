@@ -4,7 +4,7 @@ import {
   EdgeInsets,
   ChangeNotifierProvider,
   ReactiveChangeNotifier,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { Layout as DefaultLayout } from "./default";
 import CartesianChartContextWidget from "../CartesianChartContextWidget";
 

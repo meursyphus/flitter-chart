@@ -1,4 +1,4 @@
-import { Alignment, Widget, BuildContext } from "@moonmoonbrothers/flutterjs";
+import { Alignment, Widget, BuildContext } from "@meursyphus/flitter";
 import CartesianChartContextWidget from "../../../common/CartesianChart/CartesianChartContextWidget";
 import { Scale } from "../../../common/CartesianChart/util";
 import { Chart as DefaultChart } from "./default";

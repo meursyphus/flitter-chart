@@ -1,4 +1,4 @@
-import { Alignment, Widget, BuildContext } from "@moonmoonbrothers/flutterjs";
+import { Alignment, Widget, BuildContext } from "@meursyphus/flitter";
 import { Chart as DefaultChart } from "./default";
 import { Scale, Data, Theme, Custom, Dependencies } from "../types";
 import ChartContextWidget from "../../../common/ChartContextWidget";

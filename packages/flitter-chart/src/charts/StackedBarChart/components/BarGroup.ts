@@ -1,4 +1,4 @@
-import { Widget, BuildContext } from "@moonmoonbrothers/flutterjs";
+import { Widget, BuildContext } from "@meursyphus/flitter";
 import { BarGroup as DefaultBarGroup } from "./default";
 import { Scale } from "../../../common/CartesianChart/types";
 import CartesianChartContextWidget from "../../../common/CartesianChart/CartesianChartContextWidget";

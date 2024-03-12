@@ -12,7 +12,7 @@ import {
   ClipRect,
   Rect,
   Curves,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { functionalizeClass } from "../../../../utils";
 
 class Series extends StatefulWidget {

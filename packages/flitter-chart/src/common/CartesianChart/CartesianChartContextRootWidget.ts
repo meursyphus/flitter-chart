@@ -5,7 +5,7 @@ import {
   Element,
   ReactiveChangeNotifier,
   Widget,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import {
   XAxis,
   XAxisLabel,
@@ -32,7 +32,7 @@ class CartesianChartContextRootWidget<
   > = Dependencies,
   THEME extends Theme = Theme,
   DATA extends Omit<Data<any>, "labels"> = Data,
-  SCALE = Scale
+  SCALE = Scale,
 > extends ChartContextRootWidget<CUSTOM, DEPENDENCIES, THEME, DATA, SCALE> {
   get root(): Widget {
     return this.dependencies.Layout();

@@ -5,7 +5,7 @@ import {
   Widget,
   ReactiveChangeNotifier,
   ChangeNotifierProvider,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { DeepPartial } from "../utils";
 
 class ChartContextRootWidget<
@@ -13,7 +13,7 @@ class ChartContextRootWidget<
   DEPENDENCIES,
   THEME,
   DATA,
-  SCALE
+  SCALE,
 > extends ComponentWidget {
   custom: CUSTOM;
   data: DATA;

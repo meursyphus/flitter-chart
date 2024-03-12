@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Widget from '@moonmoonbrothers/flutterjs-svelte';
+	import Widget from '@meursyphus/flitter-svelte';
 	import Highlight, { LineNumbers } from 'svelte-highlight';
 	import typescript from 'svelte-highlight/languages/typescript';
 	import codeStyle from 'svelte-highlight/styles/github-dark-dimmed';

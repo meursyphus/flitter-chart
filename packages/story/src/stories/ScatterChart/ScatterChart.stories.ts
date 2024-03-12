@@ -541,7 +541,7 @@ export const Scatter: Story = {
 			}
 		}),
 		code: dedent`
-		import { TextStyle, Text, Container, EdgeInsets, Positioned } from '@moonmoonbrothers/flutterjs';
+		import { TextStyle, Text, Container, EdgeInsets, Positioned } from '@meursyphus/flitter';
 		import { ScatterChart } from '@meursyphus/flitter-chart';
 	`
 	}

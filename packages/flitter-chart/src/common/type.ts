@@ -1,18 +1,18 @@
-import { Widget } from "@moonmoonbrothers/flutterjs";
+import { Widget } from "@meursyphus/flitter";
 
 export type CustomWidget<
   T extends string | {} | Record<string, any>,
   R = {},
   THEME = {},
-  DATA = {}
+  DATA = {},
 > = {
   type: "custom";
   Custom: (
     child: T extends string
       ? { [key in T]: () => Widget }
       : T extends {}
-      ? T
-      : {},
+        ? T
+        : {},
     data: R & { theme: THEME; data: DATA }
   ) => Widget;
 };

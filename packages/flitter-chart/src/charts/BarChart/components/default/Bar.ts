@@ -2,7 +2,7 @@ import {
   Container,
   type BoxDecoration,
   type EdgeInsets,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 export default function Bar({
   thickness,
   direction,

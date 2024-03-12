@@ -3,7 +3,7 @@ import type { Custom, Theme, Data, Scale, Dependencies } from "./types";
 import * as defaultComponents from "./components/default";
 import { Series, Plot, Chart } from "./components";
 import { getScale, getValueEdge } from "../../common/CartesianChart/util";
-import { Widget } from "@moonmoonbrothers/flutterjs";
+import { Widget } from "@meursyphus/flitter";
 import { DeepPartial } from "../../utils";
 
 class ScatterChart extends CartesianChartContextRootWidget<

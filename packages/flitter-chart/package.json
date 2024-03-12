@@ -12,6 +12,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "vite": "^4.2.1"
+    "vite": "^4.2.1",
+    "@meursyphus/flitter": "^0.0.1"
   }
 }

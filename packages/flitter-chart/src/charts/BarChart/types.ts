@@ -1,4 +1,4 @@
-import { Widget } from "@moonmoonbrothers/flutterjs";
+import { Widget } from "@meursyphus/flitter";
 import {
   Custom as CartesianChartCustom,
   Theme as CartesianChartTheme,

@@ -4,7 +4,7 @@ import {
   TextStyle,
   SizedBox,
   EdgeInsets,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { Font } from "../types";
 import { DataLabel as DefaultDataLabel } from "./default";
 import CartesianChartContextWidget from "../CartesianChartContextWidget";

@@ -14,7 +14,7 @@ import {
   CurvedAnimation,
   Transform,
   Curves,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { Scale } from "../../types";
 import { functionalizeClass } from "../../../../utils";
 

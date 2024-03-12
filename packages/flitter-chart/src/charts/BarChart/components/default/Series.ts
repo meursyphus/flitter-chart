@@ -7,7 +7,7 @@ import {
   Axis,
   MainAxisAlignment,
   Widget,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { Scale } from "../../../../common/CartesianChart/types";
 
 export default function Series({

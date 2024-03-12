@@ -4,7 +4,7 @@ import {
   Flexible,
   Widget,
   EdgeInsets,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 export default function Layout({
   padding = EdgeInsets.all(30),
   Title,

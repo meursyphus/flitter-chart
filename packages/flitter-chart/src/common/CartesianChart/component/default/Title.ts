@@ -6,7 +6,7 @@ import {
   BoxDecoration,
   Row,
   MainAxisAlignment,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 
 export const defaultTitleConfig = {
   font: {
@@ -38,8 +38,8 @@ export default function Title({
       align === "start"
         ? MainAxisAlignment.start
         : align === "center"
-        ? MainAxisAlignment.center
-        : MainAxisAlignment.end,
+          ? MainAxisAlignment.center
+          : MainAxisAlignment.end,
     children: [
       Container({
         margin,

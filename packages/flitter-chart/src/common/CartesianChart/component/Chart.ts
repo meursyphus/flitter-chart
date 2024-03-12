@@ -1,4 +1,4 @@
-import { Alignment, Widget, BuildContext } from "@moonmoonbrothers/flutterjs";
+import { Alignment, Widget, BuildContext } from "@meursyphus/flitter";
 import { Scale } from "../util";
 import { Chart as DefaultChart } from "./default";
 import CartesianChartContextWidget from "../CartesianChartContextWidget";
@@ -12,7 +12,7 @@ export type ChartConfig = {
 };
 
 export class Chart<
-  CUSTOM extends Custom<any, any> = Custom
+  CUSTOM extends Custom<any, any> = Custom,
 > extends CartesianChartContextWidget<CUSTOM> {
   build(context: BuildContext): Widget {
     const theme = this.getTheme(context);

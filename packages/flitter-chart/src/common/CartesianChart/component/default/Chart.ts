@@ -7,7 +7,7 @@ import {
   BoxDecoration,
   Border,
   BorderSide,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 
 export default function Chart({
   yAxisColor,

@@ -17,7 +17,7 @@ import {
   Tween,
   Element,
   Curves,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { functionalizeClass } from "../../../../utils";
 
 type YAxisProps = {

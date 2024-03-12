@@ -29,7 +29,7 @@ import {
   Color,
   ToolTipPosition,
   Tooltip,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { functionalizeClass } from "../../../../utils";
 import { BarProps } from "../Bar";
 import { TooltipProps } from "../Tooltip";

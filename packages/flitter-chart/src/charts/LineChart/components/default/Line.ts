@@ -1,4 +1,4 @@
-import { CustomPaint, Path, Size } from "@moonmoonbrothers/flutterjs";
+import { CustomPaint, Path, Size } from "@meursyphus/flitter";
 export default function Line({
   thickness = 2,
   color,

@@ -1,7 +1,7 @@
 import { Custom, Theme, Data, Dependencies, LegendState } from "./types";
 import ChartContextWidget from "../ChartContextWidget";
 import { Scale } from "./util";
-import { BuildContext, Provider } from "@moonmoonbrothers/flutterjs";
+import { BuildContext, Provider } from "@meursyphus/flitter";
 
 class CartesianChartContextWidget<
   CUSTOM extends Custom<any, any> = Custom,
@@ -11,7 +11,7 @@ class CartesianChartContextWidget<
   > = Dependencies,
   THEME extends Theme = Theme,
   DATA extends Omit<Data<any>, "labels"> = Data,
-  SCALE = Scale
+  SCALE = Scale,
 > extends ChartContextWidget<CUSTOM, DEPENDENCIES, THEME, DATA, SCALE> {
   getLegendState(context: BuildContext) {
     const { legendStates } = Provider.of<{ legendStates: LegendState[] }>(

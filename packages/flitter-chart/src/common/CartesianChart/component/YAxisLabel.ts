@@ -4,7 +4,7 @@ import {
   BuildContext,
   TextAlign,
   TextWidthBasis,
-} from "@moonmoonbrothers/flutterjs";
+} from "@meursyphus/flitter";
 import { YAxisLabel as DefaultYAxisLabel } from "./default";
 import CartesianChartContextWidget from "../CartesianChartContextWidget";
 

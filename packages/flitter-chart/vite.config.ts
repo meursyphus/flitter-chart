@@ -11,7 +11,7 @@ export default defineConfig({
     },
     outDir: "package",
     rollupOptions: {
-      external: ["@moonmoonbrothers/flutterjs"],
+      external: ["@meursyphus/flitter"],
     },
   },
 });

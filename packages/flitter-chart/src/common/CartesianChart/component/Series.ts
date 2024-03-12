@@ -1,9 +1,4 @@
-import {
-  Widget,
-  BuildContext,
-  Center,
-  Text,
-} from "@moonmoonbrothers/flutterjs";
+import { Widget, BuildContext, Center, Text } from "@meursyphus/flitter";
 import CartesianChartContextWidget from "../CartesianChartContextWidget";
 import { Custom } from "../types";
 
@@ -12,7 +7,7 @@ export type SeriesProps = {};
 export type SeriesConfig = {};
 
 export class Series<
-  CUSTOM extends Custom = Custom
+  CUSTOM extends Custom = Custom,
 > extends CartesianChartContextWidget<CUSTOM> {
   constructor(protected props: SeriesProps = {}) {
     super();
