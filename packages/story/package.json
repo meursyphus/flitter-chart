@@ -12,7 +12,8 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"storybook": "storybook dev -p 6006",
-		"build-storybook": "storybook build"
+		"build-storybook": "storybook build",
+		"chromatic": "npx chromatic"
 	},
 	"exports": {
 		".": {
@@ -62,8 +63,8 @@
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"dependencies": {
-		"@meursyphus/flitter": "^0.0.1",
-		"@meursyphus/flitter-svelte": "^0.0.1",
+		"@meursyphus/flitter": "^0.0.5",
+		"@meursyphus/flitter-svelte": "^0.0.2",
 		"svelte-highlight": "^7.6.0"
 	}
 }

@@ -1,5 +1,4 @@
-import { Widget } from "@meursyphus/flitter";
-import { BuildContext } from "@meursyphus/flitter/src/widget/ComponentWidget";
+import { Widget, type BuildContext } from "@meursyphus/flitter";
 import { Series as DefaultSeries } from "./default";
 import { Series as BaseSeries } from "../../../common/CartesianChart/component/Series";
 import type { Custom } from "../types";

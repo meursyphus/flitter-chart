@@ -1,9 +1,11 @@
 import {
-  type Widget,
-  type Alignment,
+  Alignment,
   ConstraintsTransformBox,
+  Widget,
   SizedBox,
 } from "@meursyphus/flitter";
+
+// import { type Widget, type Alignment, SizedBox } from "@meursyphus/flitter";
 export default function IgnoreChildSize({
   ignoreHeight = false,
   ignoreWidth = false,
@@ -28,7 +30,7 @@ export default function IgnoreChildSize({
             : ignoreHeight
               ? ConstraintsTransformBox.maxHeightUnconstrained
               : ConstraintsTransformBox.unmodified,
-      child: child,
+      child,
     }),
   });
 }

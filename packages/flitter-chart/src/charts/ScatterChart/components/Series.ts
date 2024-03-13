@@ -1,5 +1,4 @@
-import { Opacity, Widget } from "@meursyphus/flitter";
-import { BuildContext } from "@meursyphus/flitter/src/widget/ComponentWidget";
+import { Opacity, Widget, type BuildContext } from "@meursyphus/flitter";
 import { Series as DefaultSeries } from "./default";
 import type { Custom, Dependencies, Data, Scale, Theme } from "../types";
 import Scatter from "./Scatter";

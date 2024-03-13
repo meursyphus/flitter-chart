@@ -4,9 +4,12 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "story:start": "npm run storybook --workspace=packages/story"
+    "story:start": "npm run storybook --workspace=packages/story",
+    "story:chromatic": "npm run chromatic --workspace=packages/story"
   },
   "author": "meursyphus",
   "license": "ISC",
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ]
 }

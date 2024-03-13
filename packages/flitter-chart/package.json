@@ -1,6 +1,6 @@
 {
   "name": "@meursyphus/flitter-chart",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.ts",
   "description": "A chart library built with the flitter library, designed as a universal framework compatible with both Svelte and React.",
   "keywords": [
@@ -19,11 +19,9 @@
   },
   "type": "module",
   "devDependencies": {
-    "vite": "^4.2.1",
-    "@meursyphus/flitter": "^0.0.1"
-  },
-  "peerDependencies": {
-    "@meursyphus/flitter": "^1.0.0 || ^0.0.1"
+    "@meursyphus/flitter": "^0.0.5",
+    "chromatic": "^11.0.8",
+    "vite": "^4.2.1"
   },
   "homepage": ".",
   "repository": {

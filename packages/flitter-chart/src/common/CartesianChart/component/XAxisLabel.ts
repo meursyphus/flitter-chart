@@ -3,8 +3,8 @@ import {
   TextStyle,
   TextWidthBasis,
   Widget,
+  type BuildContext,
 } from "@meursyphus/flitter";
-import { BuildContext } from "@meursyphus/flitter/src/widget/ComponentWidget";
 import { XAxisLabel as DefaultXAxisLabel } from "./default";
 import CartesianChartContextWidget from "../CartesianChartContextWidget";
 

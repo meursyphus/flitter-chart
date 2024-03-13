@@ -1,5 +1,4 @@
-import { Widget } from "@meursyphus/flitter";
-import { BuildContext } from "@meursyphus/flitter/src/widget/ComponentWidget";
+import { Widget, type BuildContext } from "@meursyphus/flitter";
 import { Bubble as DefaultBubble } from "./default";
 import type { Custom, Dependencies, Data, Theme, Scale } from "../types";
 import ChartContextWidget from "../../../common/ChartContextWidget";
