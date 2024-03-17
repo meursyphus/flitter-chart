@@ -15,6 +15,7 @@ import {
   Opacity,
   BorderRadius,
   Radius,
+  ZIndex,
 } from "@meursyphus/flitter";
 
 function Tooltip({
@@ -33,76 +34,79 @@ function Tooltip({
   margin?: EdgeInsets;
   fontFamily: string;
 }) {
-  return Container({
-    margin,
-    width: 120,
-    height: 60,
-    child: Stack({
-      children: [
-        Positioned.fill({
-          child: Opacity({
-            opacity: 0.7,
-            child: Container({
-              decoration: new BoxDecoration({
-                color: "black",
-                borderRadius: BorderRadius.all(Radius.circular(4)),
+  return ZIndex({
+    zIndex: 100,
+    child: Container({
+      margin,
+      width: 120,
+      height: 60,
+      child: Stack({
+        children: [
+          Positioned.fill({
+            child: Opacity({
+              opacity: 0.7,
+              child: Container({
+                decoration: new BoxDecoration({
+                  color: "black",
+                  borderRadius: BorderRadius.all(Radius.circular(4)),
+                }),
               }),
             }),
           }),
-        }),
-        Container({
-          padding: EdgeInsets.symmetric({ vertical: 10, horizontal: 12 }),
-          child: Column({
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(label, {
-                style: new TextStyle({
-                  color: "white",
-                  fontFamily,
-                  fontWeight: "bold",
-                  fontSize: 14,
+          Container({
+            padding: EdgeInsets.symmetric({ vertical: 10, horizontal: 12 }),
+            child: Column({
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(label, {
+                  style: new TextStyle({
+                    color: "white",
+                    fontFamily,
+                    fontWeight: "bold",
+                    fontSize: 14,
+                  }),
                 }),
-              }),
-              Row({
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Row({
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Container({
-                        color: legend.color,
-                        width: 8,
-                        height: 8,
-                      }),
-                      SizedBox({ width: 4 }),
-                      Text(legend.name, {
-                        style: new TextStyle({
-                          color: "white",
-                          fontFamily,
-                          fontSize: 12,
-                          height: 1.4,
-                          fontWeight: "600",
+                Row({
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Row({
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Container({
+                          color: legend.color,
+                          width: 8,
+                          height: 8,
                         }),
-                      }),
-                    ],
-                  }),
-                  Text(`${value}`, {
-                    style: new TextStyle({
-                      color: "white",
-                      fontFamily,
-                      fontSize: 12,
-                      height: 1.4,
-                      fontWeight: "600",
+                        SizedBox({ width: 4 }),
+                        Text(legend.name, {
+                          style: new TextStyle({
+                            color: "white",
+                            fontFamily,
+                            fontSize: 12,
+                            height: 1.4,
+                            fontWeight: "600",
+                          }),
+                        }),
+                      ],
                     }),
-                  }),
-                ],
-              }),
-            ],
+                    Text(`${value}`, {
+                      style: new TextStyle({
+                        color: "white",
+                        fontFamily,
+                        fontSize: 12,
+                        height: 1.4,
+                        fontWeight: "600",
+                      }),
+                    }),
+                  ],
+                }),
+              ],
+            }),
           }),
-        }),
-      ],
+        ],
+      }),
     }),
   });
 }

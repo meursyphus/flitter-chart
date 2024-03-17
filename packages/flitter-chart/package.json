@@ -1,6 +1,6 @@
 {
   "name": "@meursyphus/flitter-chart",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "src/index.ts",
   "description": "A chart library built with the flitter library, designed as a universal framework compatible with both Svelte and React.",
   "keywords": [
