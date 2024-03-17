@@ -19,7 +19,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "@meursyphus/flitter": "^0.0.6",
+    "@meursyphus/flitter": "^0.0.7",
     "chromatic": "^11.0.8",
     "vite": "^4.2.1"
   },
